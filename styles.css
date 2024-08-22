@@ -72,3 +72,20 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.education-item h3 {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.education-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.education-item p:first-of-type {
+    font-weight: bold;
+    margin-top: 5px;
+    color: #000;
+}
