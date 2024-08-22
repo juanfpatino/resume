@@ -25,7 +25,7 @@ To leverage technical and business skills in a Machine Learning, AI, or Software
 - **Programming and Web:** Java*, C#*, C*, Python*, R*, JavaScript, PHP, MySQL, HTML, Rust
 - **Machine Learning / AI:** TensorFlow*, NumPy*, R Studio*, Scikit-learn, Matplotlib, Tableau
 - **Development Frameworks:** HTTP REST APIs*, .NET Core Framework*, Spring Boot*, Postman*, AngularJS
-- **Test and Version Control:** Docker*, Postman*, GitHub*, Git*, JUnit*, Azure DevOps, Docker Compose
+- **Test and Version Control:** Docker*, Postman*, GitHub*, Git*, JUnit*, *Selenium, Azure DevOps, Docker Compose
 
 ## Projects
 
