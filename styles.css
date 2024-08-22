@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #F76902;
+    background-color: #F76902; /* RIT Orange */
     color: white;
     padding: 20px;
     text-align: center;
@@ -20,6 +20,17 @@ header h1 {
 
 header p {
     margin: 5px 0 0;
+    color: white; /* Ensure the text is white for visibility */
+    font-size: 1.2em;
+}
+
+header p a {
+    color: white; /* Links in header should also be white */
+    text-decoration: none;
+}
+
+header p a:hover {
+    text-decoration: underline;
 }
 
 section {
@@ -28,17 +39,18 @@ section {
     width: 80%;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  /* Add transition to the section elements for the fade-in effect */
-
-    opacity: 0; /* Initial state before fade-in */
-    transition: opacity 1s; /* Ensure it animates smoothly */
-
 }
 
 section h2 {
     border-bottom: 2px solid #007BFF;
     padding-bottom: 10px;
     color: #007BFF; /* Default color */
+}
+
+/* Add transition to the section elements for the fade-in effect */
+section {
+    opacity: 0; /* Initial state before fade-in */
+    transition: opacity 1s; /* Ensure it animates smoothly */
 }
 
 .education-item, .project-item, .experience-item, .activity-item {
@@ -48,12 +60,12 @@ section h2 {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #007BFF;
+    background-color: #F76902; /* RIT Orange for the footer */
     color: white;
 }
 
 a {
-    color: #F76902;
+    color: #007BFF;
     text-decoration: none;
 }
 
